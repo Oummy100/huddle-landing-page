@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+--root{
+    --Pink: hsl(322, 100%, 66%);
+    --Light-Pink: hsl(322, 100%, 98%);
+    --Light-Red: hsl(0, 100%, 63%);
+    --Dark-Cyan: hsl(192, 100%, 9%);
+    --Grayish-Blue: hsl(208, 11%, 55%);
+    --White: #fff;
+    --Call-To-Action-Background: aliceblue;
+}
+
