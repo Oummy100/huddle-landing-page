@@ -58,6 +58,7 @@ nav button {
 }
 nav button:hover{
     color: hsl(192, 100%, 20%);
+    cursor: pointer;
 }
 .titre {
     display: flex;
@@ -87,6 +88,7 @@ h1 {
 
 .titre button:hover{
     background: hsl(322, 100%, 70%);
+    cursor: pointer;
 }
 .image {
     display: flex;
@@ -105,6 +107,7 @@ h1 {
 button {
     font-weight: 700;
     font-size: 1.1rem;
+    
 }
 
 main {
@@ -187,6 +190,7 @@ h2 {
 
 .une_petite_div4 button:hover{
      background: hsl(322, 100%, 70%);
+     cursor: pointer;
 }
 footer {
 
@@ -257,7 +261,8 @@ footer .contenair {
 
 .facebook:hover{
     color: var(--Pink);
-    transition: 1s;
+    transition: 0.3s;
+    cursor: pointer;
 }
 
 .tiktok {
@@ -269,7 +274,8 @@ footer .contenair {
 
 .tiktok:hover{
     color: var(--Pink);
-    transition: 1s;
+    transition: 0.3s;
+    cursor: pointer;
 }
 
 .WhatsApp {
@@ -281,7 +287,8 @@ footer .contenair {
 
 .WhatsApp:hover{
     color: var(--Pink);
-    transition: 1s;
+    transition: 0.3s;
+    cursor: pointer;
 }
 
 .reseau {
@@ -465,6 +472,10 @@ footer .contenair {
 }
 
 @media (max-width:425px){
+
+    .titre button{
+        font-size: 0.85rem;
+    }
  .une_petite_div4{
     max-width: 15rem;
     padding: 1rem;
@@ -475,7 +486,7 @@ footer .contenair {
 
      .une_petite_div4 button{
         width: 10rem;
-        font-size: 0.9rem;
+        font-size: 0.85rem;
      }
 
 
