@@ -20,7 +20,7 @@ Créer une navigation claire et un pied de page complet avec des liens et des r�
 │ ├── nav
 │ │ ├── img (logo)
 │ │ └── button (Try It Free)
-│ └── section (hero)
+│ └── section
 │ ├── div.titre
 │ │ ├── h1
 │ │ ├── p
